@@ -5,7 +5,7 @@ let mainu= document.getElementById("mainu");
 
 
 function check(todo) {
- if((uname.value=="admin")||(password.value=="12345"))
+ if((uname.value=="admin")&&(password.value=="12345"))
  {
     todo();
    
